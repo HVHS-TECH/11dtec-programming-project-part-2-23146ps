@@ -5,17 +5,6 @@
 */
 console.log("Running javascript.js");
 
-//functions
-function getUserName() {
-    userName = prompt("please input name:");
-}
-function getUserSeatN() {
-    userSeatN = prompt("Hi "+userName+" please selact your package:" +message);
-}
-function getUserTime() {
-    userTime = prompt("Hi "+userName+ " Please input amount of days you wish to rent the vehicle (max of 30):");
-}
-
 
 /*
 Main code
@@ -33,6 +22,18 @@ const MAX_USER_TIME = 30;
 
 for (i = 0; i < classArray.length; i++){
     message = message + "\nfor $"+ Price[i] + " is "+classArray[i];
+}
+
+
+//functions
+function getUserName() {
+    userName = prompt("please input name:");
+}
+function getUserSeatN() {
+    userSeatN = prompt("Hi "+userName+" please selact your package:" +message);
+}
+function getUserTime() {
+    userTime = prompt("Hi "+userName+ " Please input amount of days you wish to rent the vehicle (max of 30):");
 }
 
 // button function
