@@ -21,7 +21,9 @@ Main code
 */
 
 // constants
-const classArray = ["BAC Mono", "MX5", "Mini", "Falcon", "Outlander", "Estima"];
+const classArray = ["Basic", "Basic+", "Premium", "Premium+", "Suite", "Penthouse"];
+
+const Price = ["",""]
 
 const MIN_USER_SEAT_N = 1;
 const MAX_USER_SEAT_N = 8;
