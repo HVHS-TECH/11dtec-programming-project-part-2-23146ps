@@ -27,7 +27,7 @@ for (i = 0; i < classArray.length; i++){
 function getUserName() {
     userName = prompt("please input name:");
 }
-function getUserSeatN() {
+function getPackage() {
     userSeatN = prompt("Hi "+userName+" please selact your package:" +message);
 }
 function getUserTime() {
@@ -41,8 +41,8 @@ function start() {
     while (!isNaN(userName)|| userName == null || userName == "" || userName == " "){
         userName = prompt("Name must be a valid name, please enter a valid name");
     } 
-    getUserSeatN();
-    while (isNaN(userSeatN)|| userSeatN == null || userSeatN == "" || userSeatN == " " || userSeatN < MIN_USER_SEAT_N || userSeatN > MAX_USER_SEAT_N){
+    getPackage();
+    while ( userMoney != "weeds" || userMoney != "mexican coke" || userMoney != "fenta" || userMoney != "sprite" || userMoney != "3g methamphetamine" || userMoney == null ){
         userSeatN = prompt("amount of seats must be a valid amount of seats, plese enter a valid amount of seats");
     }
     getUserTime();
