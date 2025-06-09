@@ -27,8 +27,8 @@ for (i = 0; i < classArray.length; i++){
 function getUserName() {
     userName = prompt("please input name:");
 }
-function getPackage() {
-    userSeatN = prompt("Hi "+userName+" please selact your package:" +message);
+function getUserPackage() {
+    userPackage = prompt("Hi "+userName+" please selact your package:" +message);
 }
 function getUserTime() {
     userTime = prompt("Hi "+userName+ " Please input amount of days you wish to rent the vehicle (max of 30):");
@@ -41,9 +41,9 @@ function start() {
     while (!isNaN(userName)|| userName == null || userName == "" || userName == " "){
         userName = prompt("Name must be a valid name, please enter a valid name");
     } 
-    getPackage();
-    while ( userMoney != "weeds" || userMoney != "mexican coke" || userMoney != "fenta" || userMoney != "sprite" || userMoney != "3g methamphetamine" || userMoney == null ){
-        userSeatN = prompt("amount of seats must be a valid amount of seats, plese enter a valid amount of seats");
+    getUserPackage();
+    while ( userPackage != "weeds" || userPackage != "mexican coke" || userPackage != "fenta" || userPackage != "sprite" || userPackage != "3g methamphetamine" || userPackage != null ){
+        userPackage = prompt("amount of seats must be a valid amount of seats, plese enter a valid amount of seats");
     }
     getUserTime();
     while (isNaN(userTime)|| userTime == null || userTime == "" || userTime == " " || userTime < MIN_USER_TIME || userTime > MAX_USER_TIME){
