@@ -42,7 +42,7 @@ function start() {
         userName = prompt("Name must be a valid name, please enter a valid name");
     } 
     getUserPackage();
-    while ( userPackage != "weeds" || userPackage != "mexican coke" || userPackage != "fenta" || userPackage != "sprite" || userPackage != "3g methamphetamine" || userPackage != null ){
+    while ( userPackage != classArray){
         userPackage = prompt("amount of seats must be a valid amount of seats, plese enter a valid amount of seats");
     }
     getUserTime();
