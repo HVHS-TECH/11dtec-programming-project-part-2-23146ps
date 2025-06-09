@@ -10,7 +10,7 @@ function getUserName() {
     userName = prompt("please input name:");
 }
 function getUserSeatN() {
-    userSeatN = prompt("Hi "+userName+" please input amount of seats you need in your rental vehicle (max of 8):");
+    userSeatN = prompt("Hi "+userName+" please selact your package:");
 }
 function getUserTime() {
     userTime = prompt("Hi "+userName+ " Please input amount of days you wish to rent the vehicle (max of 30):");
