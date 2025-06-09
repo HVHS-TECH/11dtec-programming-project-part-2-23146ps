@@ -15,8 +15,6 @@ const classArray = ["Basic", "Basic+", "Premium", "Premium+", "Suite", "Penthous
 
 const Price = ["150","175","250","300","500","2000"]
 
-const MIN_USER_SEAT_N = 1;
-const MAX_USER_SEAT_N = 8;
 const MIN_USER_TIME = 1;
 const MAX_USER_TIME = 30;
 
