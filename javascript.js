@@ -23,7 +23,7 @@ Main code
 // constants
 const classArray = ["Basic", "Basic+", "Premium", "Premium+", "Suite", "Penthouse"];
 
-const Price = ["",""]
+const Price = ["150","175","250","300","500","2000"]
 
 const MIN_USER_SEAT_N = 1;
 const MAX_USER_SEAT_N = 8;
