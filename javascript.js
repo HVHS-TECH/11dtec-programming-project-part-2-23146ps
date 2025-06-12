@@ -12,14 +12,15 @@ Main code
 
 // constants
 const classArray = ["Basic", "Basic+", "Premium", "Premium+", "Suite", "Penthouse"];
-
-const Price = ["150","175","250","300","500","2000"]
+const moons = ["Europa","Io","Callisto","Ganymede"]
+const moonMulti = ["2","2.5","1.5","3"]
+const price = ["150","175","250","300","500","2000"]
 
 const MIN_USER_TIME = 1;
 const MAX_USER_TIME = 30;
 
 for (i = 0; i < classArray.length; i++){
-    message = message + "\nfor $"+ Price[i] + " is "+classArray[i];
+    message = message + "\nfor $"+ price[i] + " is "+classArray[i];
 }
 
 
@@ -42,7 +43,7 @@ function start() {
         userName = prompt("Name must be a valid name, please enter a valid name");
     } 
     getUserPackage();
-    while ( userPackage != classArray){
+    while ( userPackage != "Basic" || userPackage != "Basic+" || userPackage != "Premium" || userPackage != "Premium+" || userPackage != "Suite" || userPackage != "Penthouse"){
         userPackage = prompt("amount of seats must be a valid amount of seats, plese enter a valid amount of seats");
     }
     getUserTime();
@@ -55,3 +56,5 @@ function start() {
 | ||
 || |_
 */
+
+//Memes, the DNA of the soul
