@@ -34,7 +34,7 @@ function getUserPackage() {
     userPackage = prompt("Hi "+userName+" please select your package:" +message);
 }
 function getUserMoon() {
-    userMoon =
+    userMoon = prompt()
 }
 function getUserTime() {
     userTime = prompt("Hi "+userName+ " Please input amount of days you wish to rent the vehicle (max of 30):");
