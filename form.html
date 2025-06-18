@@ -16,14 +16,21 @@
     <div class="nav">
         <ul>
             <li><a href="index.html"><img src=image.png alt="home"></a></li>
-            <li><a href="cars.html">Available rooms</a></li>
-            <li><a href="form.html"></a></li>
+            <li><a href="rooms.html">Available rooms</a></li>
+            <li><a href="form.html">Book now</a></li>
         </ul>
     </div>
 
-    <h1></h1>
+<script src="javascript.js"></script>
 
-    <script src="javascript.js"></script>
+    <h1>Book here:</h1>
+    <form onsubmit="return false;">
+        <label>Name:</label><br>
+        <input type="text" id="input_name"><br>
+        <input type="submit" onclick="getFormInput()">
+    </form>
+
+    
 
 </body>
 
