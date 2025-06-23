@@ -22,13 +22,25 @@
     </div>
 
 <script src="javascript.js"></script>
-
+<hr>
     <h1>Book here:</h1>
+
+    <h2 id="welcomeMessage"></h2>
     <form onsubmit="return false;">
         <label>Name:</label><br>
         <input type="text" id="input_name"><br>
         <input type="submit" onclick="getFormInput()">
     </form>
+    <hr>
+    <label for="room">choose a room</label>
+        <select id="room" name="room">
+            <option value="Basic">Basic</option>
+            <option value="Basic+">Basic +</option>
+            <option value="Premium">Premium</option>
+            <option value="Premium+">Premium +</option>
+            <option value="Suite">Suite</option>
+            <option value="Penthouse">Penthouse</option>
+        </select>
 
     
 
