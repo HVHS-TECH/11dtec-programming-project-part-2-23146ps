@@ -32,17 +32,33 @@
         <input type="submit" onclick="getFormInput()">
     </form>
     <hr>
-    <label for="room">choose a room</label>
+    <form onsubmit="return false;">
+    <label for="room">choose a room:</label>
         <select id="room" name="room">
-            <option value="Basic">Basic</option>
-            <option value="Basic+">Basic +</option>
-            <option value="Premium">Premium</option>
-            <option value="Premium+">Premium +</option>
-            <option value="Suite">Suite</option>
-            <option value="Penthouse">Penthouse</option>
+            <option value="100">Basic</option>
+            <option value="150">Basic +</option>
+            <option value="250">Premium</option>
+            <option value="300">Premium +</option>
+            <option value="500">Suite</option>
+            <option value="1000">Penthouse</option>
         </select>
-
-    
+    </form>
+    <hr>
+    <form onsubmit="return false;">
+    <label for="moon">choose hotel location:</label>
+    <select id="moon" name="moon">
+        <option value="2.1">Europa</option>
+        <option value="2">Io</option>
+        <option value="1.6">Callisto</option>
+        <option value="1.3">Ganymede</option>
+    </select>
+    </form>
+    <hr>
+    </form>
+    <h2 id="price"></h2>
+<div class="w3-container">
+    <button class="w3-btn w3-????? w3-xxlarge" type="button" onclick="priceCheck();">Price check</button>
+</div>
 
 </body>
 
