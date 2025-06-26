@@ -17,10 +17,6 @@ const price = ["150","175","250","300","500","2000"]
 const MIN_USER_TIME = 1;
 const MAX_USER_TIME = 30;
 
-let 
-
-
-
 //functions
 function getFormInput(){
     var message ="welcome to the form, ";
@@ -29,7 +25,10 @@ function getFormInput(){
 }
 
 function priceCheck(){
-    var price = moon.value * room.value;
+    var moon = moon.value;
+    var room = room.value;
+
+    var price = moon * room;
 
     var message2 ="Total price: "
     message2 = message2 + price
