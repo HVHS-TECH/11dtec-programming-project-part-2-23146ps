@@ -17,7 +17,9 @@ const price = ["150","175","250","300","500","2000"]
 const MIN_USER_TIME = 1;
 const MAX_USER_TIME = 30;
 
-let totalPrice = 0;
+let 
+
+
 
 //functions
 function getFormInput(){
