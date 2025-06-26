@@ -19,13 +19,7 @@ const MAX_USER_TIME = 30;
 
 //functions
 function getFormInput(){
-    var message ="welcome to the form, ";
-    message = message + input_name.value;
-    welcomeMessage.innerHTML = message;
-}
-
-function priceCheck(){
-    var moon = moon.value;
+        var moon = moon.value;
     var room = room.value;
 
     var price = moon * room;
@@ -33,6 +27,10 @@ function priceCheck(){
     var message2 ="Total price: "
     message2 = message2 + price
     price.innerHTML = message2;
+    
+    var message ="welcome to the form, ";
+    message = message + input_name.value;
+    welcomeMessage.innerHTML = message;
 }
 /*
 main chunk of codearidooo
