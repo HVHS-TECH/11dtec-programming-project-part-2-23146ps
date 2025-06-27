@@ -19,7 +19,8 @@ const MAX_USER_TIME = 30;
 
 //functions
 function getFormInput(){
-        var moon = moon.value;
+    Number()num; = Number(num);
+    var moon = moon.value;
     var room = room.value;
 
     var price = moon * room;
