@@ -19,20 +19,21 @@ const MAX_USER_TIME = 30;
 
 //functions
 function getFormInput(){
-    var moon = moon.value;
-    moon = Number(moon);
-    var room = room.value;
-    room = Number(room);
-
-    var price = moon * room;
-
-    var message2 ="Total price: "
-    message2 = message2 + price
-    price.innerHTML = message2;
     
-    var message ="welcome to the form, ";
-    message = message + input_name.value;
-    welcomeMessage.innerHTML = message;
+    var moonValue = moon.value;
+    moonValue = Number(moonValue);
+    var roomValue = room.value;
+    roomValue = Number(roomValue);
+
+    var price = moonValue * roomValue;
+
+    var message ="Total price: "
+    message = message + price
+    price.innerHTML = message;
+    
+    var message2 ="welcome to the form, ";
+    message2 = message2 + input_name.value;
+    welcomeMessage.innerHTML = message2;
 };
 /*
 main chunk of codearidooo
