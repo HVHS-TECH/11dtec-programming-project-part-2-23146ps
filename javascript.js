@@ -20,9 +20,9 @@ const MAX_USER_TIME = 30;
 //functions
 function getFormInput(){
     var moon = moon.value;
-    Number() moon = Number(moon);
+    moon = Number(moon);
     var room = room.value;
-    Number() room = Number(room);
+    room = Number(room);
 
     var price = moon * room;
 
@@ -33,7 +33,7 @@ function getFormInput(){
     var message ="welcome to the form, ";
     message = message + input_name.value;
     welcomeMessage.innerHTML = message;
-}
+};
 /*
 main chunk of codearidooo
 */
